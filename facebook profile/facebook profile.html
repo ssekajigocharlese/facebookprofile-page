@@ -1,0 +1,103 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ssekajigo@facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode"> <!-- Set the default theme as light mode -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">WELOCOME TO MY FACEBOOK PROFILE</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Facebook">
+            </div>
+            <div class="header-icons">
+                <div class="icon icon-home"><i class="fas fa-home"></i></div>
+                <div class="icon icon-friends"><i class="fas fa-user-friends"></i></div>
+                <div class="icon icon-messenger"><i class="fas fa-comments"></i></div>
+                <div class="icon icon-notifications"><i class="fas fa-bell"></i></div>
+                <div class="icon icon-settings"><i class="fas fa-cog"></i></div>
+            </div>
+            <div class="profile-picture1">
+                <img src="charles.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="cover-photo">
+            <img src="ssekajigo.jpg" alt="Cover Photo">
+        </div>
+        <div class="user-info">
+            <img class="profile-picture" src="charles.jpg" alt="Profile Picture">
+            <h1 class="user-name">SSEKAJIGO CHARLES</h1>
+            <p class="user-location">MASAKA, UGANDA</p>
+            <p class="user-job">BSC.EDUC</p>
+            
+        </div>
+        <div class="search-bar">
+                <input type="text" placeholder="Add to story">             
+                <input type="text" placeholder="Edit PROFILE">           <input type="text" placeholder="...">
+        </div>
+
+        <div class="user-tabs">
+            <a href="#" class="tab tab-active">Posts</a>
+            <a href="#" class="tab">Friends</a>
+            <a href="#" class="tab">Photos</a>
+            <a href="#" class="tab">More</a>
+        </div>
+
+        <div class="user-content">
+            <div class="post">
+                <p><b>SSEKAJIGO CHARLES updated his profile picture</b></p>
+                <img src="4.jpg" alt="Post Image">
+            </div>
+            <div class="post">
+                <p><b>SSEKAJIGO CHAERLES is with bupon and 11 others.</b>🌅</p>
+                <img src="3.jpg" alt="Post Image">
+            </div>
+        </div>
+    </main>
+
+    <!-- Theme change button -->
+    <button id="theme-toggle">Dark-mode</button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class ="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-language">
+                <select>
+                    <option value="en">English (US)</option>
+                    <option value="es">Español</option>
+                    <option value="en">luganda (lu)</option>
+                    <option value="es">france</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to handle theme toggling
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
